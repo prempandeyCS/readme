@@ -1,10 +1,10 @@
 # **Serviceshaft.com**
+---
 
 A nodeJs project using [NestJs](https://nestjs.com/), [TypeORM](https://typeorm.io/), and [GraphQL](https://graphql.org/).
 
 
 ## **Running locally**
----
 
 Make sure you have [Node.js](http://nodejs.org/) , [Redis](https://redis.io/) and [Postgress](https://www.postgresql.org/) installed.
 
