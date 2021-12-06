@@ -2,45 +2,46 @@
 
 A nodeJs project using [NestJs](https://nestjs.com/), [TypeORM](https://typeorm.io/), and [GraphQL](https://graphql.org/).
 
-### **Running locally**
 
+### **Running locally**
 ---
 
 Make sure you have [Node.js](http://nodejs.org/) , [Redis](https://redis.io/) and [Postgress](https://www.postgresql.org/) installed.
 
-### Clone the project
-
+### Clone the project 
 ```sh
 git clone git@github.com:aashishdhawan/markarian-backend.git
 ```
 
-### Go to project directory
 
+### Go to project directory
 ```sh
 cd markarian-backend
 ```
 
 ### To checkout a branch (dev)
-
 ```sh
 git fetch
 git checkout -b dev --track origin/dev
 ```
 
 ### Install dependencies
-
 ```sh
 npm install
 ```
 
-### For migrations
+### Cofigure environment
+```sh
+cp .env.example .env
+``` 
 
+
+### For migrations
 ```sh
 npm run typeorm migration:run
 ```
 
 ### Start the server
-
 ```sh
 npm run start:dev
 ```
