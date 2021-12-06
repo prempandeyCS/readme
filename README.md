@@ -6,9 +6,7 @@ A nodeJs project using [NestJs](https://nestjs.com/), [TypeORM](https://typeorm.
 
 ## **Running locally**
 
-Make sure you have [Node.js](http://nodejs.org/) , [Redis](https://redis.io/) and [Postgress](https://www.postgresql.org/) installed.
-
-Follow the steps given below to run the project loacally.
+Make sure you have [Node.js](http://nodejs.org/) , [Redis](https://redis.io/) and [Postgress](https://www.postgresql.org/) installed. Follow the steps given below to run the project loacally.
 
 #### Clone the project 
 ```sh
