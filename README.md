@@ -3,7 +3,7 @@
 A nodeJs project using [NestJs](https://nestjs.com/), [TypeORM](https://typeorm.io/), and [GraphQL](https://graphql.org/).
 
 
-### **Running locally**
+## **Running locally**
 ---
 
 Make sure you have [Node.js](http://nodejs.org/) , [Redis](https://redis.io/) and [Postgress](https://www.postgresql.org/) installed.
@@ -48,7 +48,7 @@ npm run start:dev
 
 Your app should now be running on [localhost:3000](http://localhost:3000/).
 
-### **Running Tests**
+## **Running Tests**
 
 ### To run testcases, run the following command
 
